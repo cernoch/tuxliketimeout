@@ -12,7 +12,7 @@ Usage
 
 Instead of `ping google.com`, simply run
 ```
-tuxliketimeout ping google.com
+tuxliketimeout.exe 1500 ping google.com
 ```
 
 Compilation
@@ -21,7 +21,7 @@ Compilation
 Assuming you have **Visual Studio** and **CMake**
 installed, first open `cmd.exe` and then:
 ```
-cmake -Bbuild -H. -G "Visual Studio 15 2017 Win64"
+cmake -Bbuild -H.
 cmake --build build
 ```
 The binary will live in `build\Debug\tuxliketimeout.exe`.
